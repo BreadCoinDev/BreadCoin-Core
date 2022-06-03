@@ -1,0 +1,9 @@
+Building BreadCoin
+
+See doc/readme-qt.rst for instructions on building BreadCoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of BreadCoin.
+
+See doc/build-*.txt for instructions on building BreadCoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of BreadCoin.
