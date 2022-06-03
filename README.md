@@ -160,7 +160,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/SaltineChips/BreadCoin/Tags) are created
+completely stable. [Tags](https://github.com/BreadCoinDev/BreadCoin-Core/Tags) are created
 regularly to indicate new official, stable release versions of BreadCoin [BREAD].
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -169,7 +169,7 @@ The developer [mailing list](https://lists.linuxfoundation.org/mailman/listinfo/
 should be used to discuss complicated or controversial changes before working
 on a patch set.
 
-Developer Discord can be found at https://discord.gg/Jp2ujYH.
+Developer Discord can be found at https://discord.gg/vtE9MjxB7h.
 
 Testing
 -------
