@@ -526,7 +526,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue)
     // Define values
     int64_t  ret2 = 0;
     if(nHeight > 0) {
-        ret2 = (10/blockValue);
+        ret2 = (blockValue/10);
     }
     return ret2;
 }
@@ -538,7 +538,7 @@ int64_t GetDevOpsPayment(int nHeight, int64_t blockValue)
 {
     int64_t ret2 = 0;
     if(nHeight > 0) {
-        ret2 = (10/blockValue);
+        ret2 = (blockValue/10);
     }
     return ret2;
 }

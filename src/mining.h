@@ -17,7 +17,7 @@ static const int64_t nGenesisBlockReward = 1 * COIN;
 /** Reserve block subsidy */
 static const int64_t nBlockRewardReserve = 7250 * COIN; // premine 725,000 BREAD
 /** Standard block subsidy */
-static const int64_t nBlockStandardReward = (10/(1 * COIN)); // 0.1 BREAD
+static const int64_t nBlockStandardReward = ((1 * COIN)/10); // 0.1 BREAD
 /** Block spacing preferred */
 static const int64_t BLOCK_SPACING = (5 * 60); // Five minutes (5 Min)
 /** Block spacing minimum */

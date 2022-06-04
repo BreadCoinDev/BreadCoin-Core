@@ -441,6 +441,7 @@ CBlock* CreateNewBlock(CReserveKey& reservekey, bool fProofOfStake, int64_t* pFe
                         hasPayment = false;
                     }
 
+                    LogPrintf("CreateNewBlock(): Setting block reward structure...\n");
                     int64_t blockReward = GetProofOfWorkReward(pindexPrev->nHeight + 1, nFees);
                     CAmount masternodePayment = GetMasternodePayment(nHeight, blockReward);
                     CAmount devopsPayment = GetDevOpsPayment(nHeight, blockReward);
